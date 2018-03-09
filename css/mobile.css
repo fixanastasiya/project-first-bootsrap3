@@ -1,0 +1,754 @@
+/*start fixheader*/
+.cbp-af-header {
+    z-index: 10000;
+    height: auto;
+    overflow: hidden;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    transition: height 0.3s;
+    -webkit-transition: .3s all;
+    -moz-transition: .3s all;
+    -ms-transition: .3s all;
+    -o-transition: .3s all;
+    transition: .3s all;
+}
+
+.cbp-af-header.cbp-af-header-shrink li a:hover {
+    text-decoration: underline;
+    background-color: #1886e4 !important;
+}
+
+.cbp-af-header-shrink .aplication,
+.cbp-af-header-shrink .login {
+    background-color: #349bf3;
+    border-color: #2f95ec !important;
+    color: #fff !important;
+}
+
+.bh .aplication,
+.bh .login {
+    background-color: #349bf3;
+    border-color: #2f95ec !important;
+    color: #fff !important;
+}
+
+/* We just have one-lined elements, so we'll center the elements with the line-height set to the height of the header */
+
+/* Transitions and class for reduced height */
+.cbp-af-header .img-header,
+.cbp-af-header .navbar a {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.bh .img-header,
+.bh .navbar a {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.cbp-af-header.cbp-af-header-shrink {
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #1886e4;
+    -webkit-transition: .3s all;
+    -moz-transition: .3s all;
+    -ms-transition: .3s all;
+    -o-transition: .3s all;
+    transition: .3s all;
+}
+.bh {
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #1886e4;
+    -webkit-transition: .3s all;
+    -moz-transition: .3s all;
+    -ms-transition: .3s all;
+    -o-transition: .3s all;
+    transition: .3s all;
+}
+
+.cbp-af-header.cbp-af-header-shrink h1,
+.cbp-af-header.cbp-af-header-shrink nav a {
+    line-height: 90px;
+}
+
+.cbp-af-header.cbp-af-header-shrink h1 {
+    font-size: 2em;
+}
+
+/* Example Media Queries */
+@media screen and (max-width: 55em) {
+
+    .cbp-af-header .cbp-af-inner {
+        width: 100%;
+    }
+
+    .cbp-af-header h1,
+    .cbp-af-header nav {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+    }
+
+    .cbp-af-header h1,
+    .cbp-af-header nav a {
+        line-height: 115px;
+    }
+
+    .cbp-af-header nav a {
+        margin: 0 10px;
+    }
+
+    .cbp-af-header.cbp-af-header-shrink h1,
+    .cbp-af-header.cbp-af-header-shrink nav a {
+        line-height: 45px;
+    }
+
+    .cbp-af-header.cbp-af-header-shrink h1 {
+        font-size: 2em;
+    }
+
+    .cbp-af-header.cbp-af-header-shrink nav a {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 32.25em) {
+    .cbp-af-header nav a {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 24em) {
+    .cbp-af-header nav a,
+    .cbp-af-header.cbp-af-header-shrink nav a {
+        line-height: 1;
+    }
+}
+
+.email {
+    margin-bottom: 75px;
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+/*start mobile css page1 */
+@media (min-width: 1481px) {
+    .log > .l-buttons button {
+        background: #dd4b39 !important;
+        border: none !important;
+        padding: 10px 36px !important;
+        margin: 0px !important;
+    }
+
+    .mobile-logo {
+        display: none !important;
+
+    }
+    .voteuser {
+        margin-left: 59px;
+    }
+   .offer > .details {
+        margin: 0px 5px 5px 0px;
+    }
+    .opens.collapsed {
+        margin-top: -2px;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1480px) {
+    body,
+    ul,
+    li,
+    a,
+    span,
+    button,
+    ul li a {
+        font-size: 13px !important;
+    }
+
+    .h1, h1 {
+        font-size: 30px;
+    }
+
+    .main-nav {
+        padding-top: 5px;
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 7px;
+    }
+
+    .mobile-logo {
+        display: none !important;
+
+    }
+
+    .main-nav a {
+        padding: 8px 5px !important;
+    }
+
+    .img-header {
+        width: 150px;
+        margin: 15px 0px 5px 0;
+    }
+
+    title {
+        padding: 65px;
+    }
+
+    .fixed {
+        left: -47px;
+        width: 120px;
+    }
+
+    .shadow {
+        width: 1000px !important;
+    }
+
+    .offer {
+        height: 245px;
+    }
+
+    .footer-top ul {
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+    }
+
+    .round.hollow a {
+        top: 96%;
+    }
+
+    /*two-page v2*/
+    .cource-detail-title > .container,
+    .cource-detail-info > .container,
+    .cource-detail-info .container,
+    .filtere .container,
+    .upcoming .container {
+        width: 1000px !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    body,
+    ul,
+    li,
+    a,
+    span,
+    button,
+    ul li a {
+        font-size: 12px !important;
+    }
+
+    .h1, h1 {
+        font-size: 30px;
+    }
+
+    .btn {
+        padding: 3px 6px;
+    }
+
+    .main-nav {
+        padding-top: 7px;
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 7px;
+    }
+
+    .mobile-logo {
+        display: none !important;
+
+    }
+
+    .main-nav a {
+        padding: 5px !important;
+    }
+
+    .img-header {
+        width: 130px;
+        margin: 13px 0px 5px 0;
+    }
+
+    .aplication, .login {
+        margin-top: 5px;
+    }
+
+    title {
+        padding: 65px;
+    }
+
+    .fixed {
+        left: -45px;
+        position: fixed;
+        width: 120px;
+        top: 30%;
+        z-index: 99999;
+    }
+
+    .shadow {
+        width: 870px !important;
+    }
+
+    .rate {
+        margin-left: 45px;
+    }
+    .voteuser {
+        margin-left: -12px;
+    }
+
+    .offer {
+        height: 245px;
+    }
+
+    .footer-top ul {
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+    }
+
+    /*two-page v2*/
+    .cource-detail-title > .container,
+    .cource-detail-info > .container,
+    .cource-detail-info .container,
+    .filtere .container,
+    .upcoming .container {
+        width: 820px !important;
+    }
+    .title-rate{
+        margin:0;
+    }
+    .tabulation {
+        border-bottom: none !important;
+        display: -webkit-inline-box;
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1083px) {
+    .aplication, .login {
+        display: none;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    body,
+    ul,
+    li,
+    a,
+    span,
+    button,
+    ul li a {
+        font-size: 12px !important;
+    }
+
+    .h1, h1 {
+        font-size: 30px;
+    }
+
+    .btn {
+        padding: 3px 6px;
+        font-size: 12px;
+    }
+
+    .img-header {
+        display: none;
+    }
+
+    .mobile-logo {
+        display: block !important;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .main-nav a {
+        padding: 14px 5px !important;
+    }
+
+    .aplication, .login {
+        display: none;
+    }
+
+    .search-menu li a {
+        height: 150px;
+        width: 120px;
+    }
+
+    .offer-button {
+        margin-left: 5%;
+    }
+
+    title {
+        padding: 65px;
+    }
+    .voteuser {
+        margin-left: -9px;
+    }
+    .fixed {
+        left: -45px;
+        position: fixed;
+        width: 120px;
+        top: 30%;
+        z-index: 99999;
+    }
+
+    .shadow {
+        width: 705px;
+    }
+
+    .offer {
+        height: 245px;
+    }
+
+    .footer-top ul {
+        margin: 0 !important;
+    }
+
+    .footer-nav li a {
+        color: #f64747 !important;
+        min-width: 110px;
+    }
+
+    .footer-middle > .phone > span {
+        font-size: 18px !important;
+    }
+
+    /*two-page v2*/
+    .cource-detail-title > .container,
+    .cource-detail-info > .container,
+    .cource-detail-info .container,
+    .filtere .container,
+    .upcoming .container {
+        width: 820px !important;
+    }
+
+    .tabulation {
+        border-bottom: none !important;
+        display: -webkit-inline-box;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .img-header {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .main-nav {
+        height: auto;
+    }
+
+    .navbar-toggle {
+        position: relative;
+        float: right;
+        padding: 10px 10px;
+        margin-top: 8px;
+        margin-right: 15px;
+        margin-bottom: 8px;
+        background-color: #1886e4;;
+        background-image: none;
+        border: none;
+        border-radius: 0px;
+    }
+
+    .cbp-af-header.cbp-af-header-shrink .main-nav {
+        background-color: #1886e4 !important;
+
+    }
+
+    .navbar.right-gr {
+        display: none;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: #1886e4;
+        border: solid 1px #fff;
+    }
+
+    .navbar-default .navbar-collapse {
+        margin-top: -9px;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.56);
+    }
+
+    .title {
+        color: #0193DE;
+        padding: 50px;
+    }
+
+    .search-menu li a {
+        height: 130px;
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+    .search {
+        background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+        border-radius: 5px;
+        height: 215px;
+        margin: 30px auto 10px;
+        display: block;
+    }
+    .search ul {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        border: none !important;
+        max-width: 724px;
+        display: flex;
+    }
+
+    .search li a i {
+        margin: 5px auto;
+        color: #fff;
+        display: block;
+        border: solid 1px #0393dc;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        line-height: 39px;
+        font-size: 22px;
+    }
+    .search input {
+        width: 80%;
+
+    }
+
+    .search button {
+        width: 19%;
+
+    }
+
+    .fixed {
+        top: 14%;
+        position: absolute !important;
+        color: #fff;
+        background: #1886e4;
+        margin: 0px 0px 0px 0;
+        padding: 2px;
+        font-size: 6px !important;
+        cursor: pointer;
+        left: 0px;
+        width: 70px;
+        z-index: 99999;
+    }
+    .fixed-mob{
+        top: 100%;
+        position: absolute !important;
+        color: #fff;
+        background: #1886e4;
+        margin: 0px 0px 0px 0;
+        padding: 2px;
+        font-size: 6px !important;
+        cursor: pointer;
+        left: 0px;
+        width: 70px;
+        z-index: 99999;
+    }
+
+    .fixed-panel {
+        color: #fff;
+        background: #1886e4;
+        margin: 0;
+        padding: 10px;
+        font-size: 8px;
+        cursor: pointer;
+    }
+
+    .search button {
+        font-size: 11px !important;
+        margin-left: -10px;
+    }
+
+    .offer {
+        overflow: hidden;
+        margin-bottom: -1px;
+    }
+
+    .offer-title {
+        display: none;
+    }
+
+    .offer > .img-left {
+        float: left;
+        width: 10%;
+        height: auto;
+    }
+
+    .offer-button {
+        margin: 2px;
+        margin-left: 37%;
+    }
+
+    .hidden-panel {
+        display: none;
+    }
+
+    #callme {
+        left: 0px;
+    }
+
+    /*twopage*/
+ .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: #1886e4;
+        border: solid 1px #fff;
+        background-color: rgb(24, 134, 228);
+    }
+
+    .bh .main-nav{
+    text-align: center;
+    background-color: #1886e4;
+}
+    .info-nav {
+        padding: 60px;
+        text-align: center
+
+    }
+    .info-nav .dropdown >.dropdown-menu {
+        display: none;
+        text-align: left;
+        width: 100%;
+    }
+    .info-nav .dropdown.open{
+        display:block!important;
+    }
+
+    /*two-page v2*/
+    .announcements{
+        margin-top: 20px;
+    }
+    .img-links {
+        text-align: center;
+    }
+
+    .info {
+        text-align: center;
+    }
+    .info button{
+        margin: 0 auto;
+
+    }
+    .advertising img {
+        margin: 0 auto;
+    }
+    .up-cource{
+        margin-bottom: 245px;
+        text-align: center;
+    }
+    .small-prod p, .small-prod a {
+        text-align: center;
+    }
+    .tabulation{
+        margin-left: 20%;
+        border:none!important;
+    }
+    .variation img{
+        margin: 0 auto;
+    }
+    .filter-title{
+     font-size: 15px;
+    }
+    .mob{
+        overflow: hidden;
+    }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 420px) {
+    #callme {
+        left: 0px;
+    }
+
+    .search-menu li a {
+        height: 130px;
+        width: 130px;
+        font-size: 10px;
+        padding: 5px 15px;
+    }
+
+    .search input {
+        width: 78%;
+    }
+
+    .search button {
+        width: 20%;
+        margin-left: -5px;
+    }
+
+    .offer-button {
+        margin: 2px;
+        margin-left: 15%;
+    }
+
+    .round.hollow a {
+        border: 2px solid #0393dc;
+        border-radius: 0;
+        color: #f5f5f5;
+        font-size: 23px;
+        padding: 10px 21px;
+        text-decoration: none;
+        position: fixed;
+        border-bottom: 0;
+        right: 0;
+        z-index: 9999;
+        top: 94%;
+        width: 120px;
+        cursor: pointer;
+        background-color: #1886e4;
+        float: right;
+    }
+
+    @media (max-width: 360px) {
+        #callme {
+            right: 240px;
+        }
+
+        .round.hollow a {
+            border: 2px solid #0393dc;
+            border-radius: 0;
+            color: #f5f5f5;
+            font-size: 23px;
+            padding: 10px 21px;
+            text-decoration: none;
+            position: fixed;
+            border-bottom: 0;
+            right: 0;
+            z-index: 9999;
+            top: 94%;
+            width: 120px;
+            cursor: pointer;
+            background-color: #1886e4;
+            float: right;
+        }
+
+        .connected {
+            margin-left: 0%;
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
